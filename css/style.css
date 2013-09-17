@@ -203,6 +203,8 @@ article > h3{
 
 .old_lady{
   float: right;
+  position: relative;
+  bottom: 100px;
 }
 
 #newstitle_top{
@@ -218,8 +220,15 @@ article > h3{
 }
 
 .p_background > p:nth-of-type(10){
-  padding-bottom: 225px;
+  padding-bottom: 287px;
 }
 
+.nancy_width{
+  width: 215px;
+  padding-top: 20px;
+}
 
+.david_down{
+  padding-top: 30px;
+}
 
