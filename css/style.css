@@ -31,7 +31,7 @@ h1{
   width: 750px;
 }
 
-article{
+#grey_wrapper > article{
   background-color: white;
   width: 730px;
   margin: auto;
@@ -71,7 +71,7 @@ article{
   margin-top: 5px;
 }
 
-article > p{
+#lead_article > p{
   padding-left: 10px;
   font-size: 12px;
 }
@@ -89,14 +89,16 @@ article > p{
 /* dividing news content into 2 columns*/
 
 .content_left{
+  margin: 0 auto;
   width: 340px;
   float: left;
   padding-right: 6px;
 }
 
 .content_right{
+  margin: 0 auto;
   width: 340px;
-  float: left;
+  float: right;
   padding-left: 6px;
 }
 
@@ -176,6 +178,7 @@ article > h3{
   margin-bottom: -12px;
   padding: 0 0 0 12px;
   font-size: 15px;
+  width: 330px;
 }
 
 /* floating old lady */
@@ -186,12 +189,14 @@ article > h3{
 
 .newstitle_top{
   margin-top: -12px;
+  width: 330px;
 }
 
 .p_background{
   background-color: rgb(204, 214, 229);
   font-size: 12px;
   padding-left: 12px;
+  width: 330px;
 }
 
 .p_background > p:nth-of-type(10){
