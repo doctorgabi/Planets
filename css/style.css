@@ -168,17 +168,20 @@ reason!*/
 
 #content_left{
   margin: 0 auto;
-  width: 340px;
+  width: 330px;
   float: left;
   padding-right: 6px;
 }
 
-<<<<<<< HEAD
 #content_right{
   margin: 0 auto;
-  width: 340px;
-  float: right;
-  padding-left: 6px;
+  width: 330px;
+  float: left;
+  padding-left: 50px;
+}
+
+#content_right > article > p{
+  width: 150px;
 }
 
 /* bold span tags */
@@ -261,19 +264,21 @@ article > h3{
 }
 
 #content_left > article{
-  padding-right: 8px;
-  width: 350px;
+  padding-right: 0px;
+  width: 330px;
 }
 
 #content_right > article{
-  width: 350px;
-  padding-left: 8px;
+  width: 330px;
+  padding-left: 0px;
 }
 
 /* floating old lady */
 
 .old_lady{
   float: right;
+  position: relative;
+  bottom: 100px;
 }
 
 #newstitle_top{
@@ -289,6 +294,15 @@ article > h3{
 }
 
 .p_background > p:nth-of-type(10){
-  padding-bottom: 225px;
+  padding-bottom: 287px;
+}
+
+.nancy_width{
+  width: 215px;
+  padding-top: 20px;
+}
+
+.david_down{
+  padding-top: 30px;
 }
 
