@@ -1,3 +1,4 @@
+
 body{
 background-color: black;
 }
@@ -80,3 +81,116 @@ article > p{
   color: rgb(87, 141, 202);
   padding-left: 10px;
 }
+
+/* dividing news content into 2 columns*/
+
+.content_left{
+  width: 340px;
+  float: left;
+  padding-right: 6px;
+}
+
+.content_right{
+  width: 340px;
+  float: left;
+  padding-left: 6px;
+}
+
+/* bold span tags */
+
+.bold{
+  font-weight: bold;
+}
+
+/* gradients for h3 tags */
+
+.facts_bg{
+  height: 18px;
+  padding-top: 1px;
+  color: white;
+  background: rgb(144, 104, 27); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgb(144, 104, 27) 0%, #c5deea 53%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(144, 104, 27)), color-stop(53%,#c5deea)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* IE10+ */
+  background: linear-gradient(to right,  rgb(144, 104, 27) 0%,#c5deea 53%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(144, 104, 27)', endColorstr='#c5deea',GradientType=1 ); /* IE6-9 */
+}
+
+.people_bg{
+  height: 18px;
+  padding-top: 1px;
+  color: white;
+  background: rgb(112, 30, 26); /* Old browsers */
+  background: -moz-linear-gradient(left, rgb(112, 30, 26)  0%, #c5deea 53%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(112, 30, 26)), color-stop(53%,#c5deea)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgb(112, 30, 26) 0%,#c5deea 53%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgb(112, 30, 26) 0%,#c5deea 53%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgb(112, 30, 26) 0%,#c5deea 53%); /* IE10+ */
+  background: linear-gradient(to right,  rgb(112, 30, 26) 0%,#c5deea 53%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(112, 30, 26)', endColorstr='#c5deea',GradientType=1 ); /* IE6-9 */
+}
+
+.resources_bg{
+  height: 18px;
+  padding-top: 1px;
+  color: white;
+  background: rgb(16, 54, 27) /* Old browsers */
+  background: -moz-linear-gradient(left, rgb(16, 54, 27)  0%, #c5deea 53%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(16, 54, 27)), color-stop(53%,#c5deea)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgb(16, 54, 27) 0%,#c5deea 53%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgb(16, 54, 27) 0%,#c5deea 53%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgb(16, 54, 27) 0%,#c5deea 53%); /* IE10+ */
+  background: linear-gradient(to right,  rgb(16, 54, 27) 0%,#c5deea 53%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(16, 54, 27)', endColorstr='#c5deea',GradientType=1 ); /* IE6-9 */
+}
+
+.headlines_bg{
+  height: 18px;
+  padding-top: 1px;
+  color: white;
+  background: rgb(144, 104, 27) /* Old browsers */
+  background: -moz-linear-gradient(left, rgb(144, 104, 27)  0%, #c5deea 53%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(144, 104, 27)), color-stop(53%,#c5deea)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgb(144, 104, 27) 0%,#c5deea 53%); /* IE10+ */
+  background: linear-gradient(to right,  rgb(144, 104, 27) 0%,#c5deea 53%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(144, 104, 27)', endColorstr='#c5deea',GradientType=1 ); /* IE6-9 */
+}
+
+
+/* news_content link styles */
+
+a{
+  text-decoration: none;
+}
+
+article > h3{
+  margin-top: 0;
+  margin-bottom: -12px;
+  padding: 0 0 0 12px;
+  font-size: 15px;
+}
+
+/* floating old lady */
+
+.old_lady{
+  float: right;
+}
+
+.newstitle_top{
+  margin-top: -12px;
+}
+
+.p_background{
+  background-color: rgb(204, 214, 229);
+  font-size: 12px;
+  padding-left: 12px;
+}
+
+.p_background > p:nth-of-type(10){
+  padding-bottom: 225px;
+}
+
