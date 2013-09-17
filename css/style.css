@@ -42,7 +42,12 @@ h1{
   margin: auto;
 }
 
-
+#grey_wrapper > nav > ul > li{
+  margin: 0 auto;
+  float: left;
+  width: 100px;
+  display: inline;
+}
 
 
 #lead_article li{
