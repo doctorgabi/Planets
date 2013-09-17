@@ -7,7 +7,12 @@ background-color: black;
   clear: both;
 }
 
-/********Gabrielle's lead article section**********/
+/*************************************************
+*******Gabrielle's lead article section**********
+*************************************************/
+
+
+/***********Gabrielle's containers & image***********/
 #lead_article{
   width: 750px;
   background-color: white;
@@ -17,31 +22,91 @@ background-color: black;
   float: left;
 }
 
+#grey_wrapper{
+  background-color: rgb(204, 214, 229);
+  width: 750px;
+  padding-top: 10px;
+  position: relative;
+  top: -6px;
+}
+
+#grey_wrapper > #white_box{
+  background-color: white;
+  width: 730px;
+  margin: 3px 10px 0 10px;
+  padding-top: 2px;
+}
+
+#image_holder{
+  border: 1px solid rgb(125, 144, 173);
+  width: 715px;
+  margin: 5px 0 0 7px;
+}
+
+#image_holder > img{
+  width: 700px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/***********Gabrielle's shadows.*************/
+
+#lead_article > h1{
+    line-height: 30px;
+    -moz-box-shadow: 0px 5px 3px #afbcce;
+    -webkit-box-shadow: 0px 3px 5px #afbcce;
+    box-shadow: 0px 5px 3px #afbcce;
+}
+
+/*#grey_wrapper > nav > ul > li:nth-child(2){
+    line-height: 30px;
+    -moz-box-shadow: 0px 3px 9px rgb(148, 165, 194);
+    -webkit-box-shadow: 0px 3px 9px rgb(148, 165, 194);
+    box-shadow: 0px 3px 9px rgb(148, 165, 194);
+}*/
+/*I tested this on the second tab, was going to
+apply to all but the first tab, but it
+made the whole nav bar shift down for some
+reason!*/
+/***********Gabrielle's misc.*************/
+#underline{
+  width: 730px;
+  margin: auto;
+  border-bottom: 1px solid rgba(204, 214, 229,0.8);
+}
+
+#lead_article > h1{
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+/**************Gabrielle's lists***********/
 #dom{
   font-size: 12px;
-  border-bottom: 1px solid rgba(204, 214, 229,0.8);
+  padding-left: 10px;
 }
 
 #dom > a:hover{
   text-decoration: underline;
 }
 
-h1{
-  font-size: 15px;
-}
-#grey_wrapper{
-  background-color: rgb(204, 214, 229);
-  width: 750px;
+#grey_wrapper > nav{
+  margin: 0;
+  padding: 0;
+  height: 20px;
 }
 
-#grey_wrapper > article{
-  background-color: white;
-  width: 730px;
-  margin: auto;
+#grey_wrapper > nav > ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
-
-
+#grey_wrapper > nav > ul > li{
+  margin-top: 0;
+  padding: 7px 20px 1px 20px;
+  font-style: italic;
+  font-size: 14px;
+}
 
 #lead_article li{
   display: inline;
@@ -61,20 +126,8 @@ h1{
   border-top-right-radius: 5px;
 }
 
-#image_holder{
-  border: 1px solid rgb(125, 144, 173);
-  width: 715px;
-  margin-left: 7px;
-  margin-top: 15px;
-}
-
-#image_holder > img{
-  width: 700px;
-  margin-left: 5px;
-  margin-top: 5px;
-}
-
-#lead_article > p{
+/*************Gabrielle's paragraphs**********/
+#white_box > p{
   padding-left: 10px;
   font-size: 12px;
 }
@@ -84,6 +137,27 @@ h1{
   color: rgb(87, 141, 202);
   padding-left: 10px;
 }
+
+#white_box > p:nth-child(4){
+  font-style: italic;
+}
+
+#white_box > p:nth-child(5){
+  color: rgb(16, 49, 127);
+  text-align: center;
+}
+
+#white_box > p:nth-child(4) > a{
+  text-decoration: underline;
+}
+
+/********Gabrielle's social media links**********/
+#white_box > p:nth-child(6){
+  text-align: center;
+  text-decoration: underline;
+}
+
+
 
 /****************************************
 **************news section****************
