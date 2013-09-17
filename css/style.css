@@ -3,6 +3,9 @@ body{
 background-color: black;
 }
 
+.clear_floats{
+  clear: both;
+}
 
 /********Gabrielle's lead article section**********/
 #lead_article{
@@ -16,7 +19,7 @@ background-color: black;
 
 #dom{
   font-size: 12px;
-  border-bottom: 1px solid rgb(204, 214, 229,);
+  border-bottom: 1px solid rgba(204, 214, 229,0.8);
 }
 
 #dom > a:hover{
@@ -71,7 +74,7 @@ article{
   margin-top: 5px;
 }
 
-article > p{
+#lead_article > p{
   padding-left: 10px;
   font-size: 12px;
 }
@@ -88,13 +91,13 @@ article > p{
 
 /* dividing news content into 2 columns*/
 
-.content_left{
+.content_left >p{
   width: 340px;
   float: left;
   padding-right: 6px;
 }
 
-.content_right{
+.content_right > p{
   width: 340px;
   float: left;
   padding-left: 6px;
