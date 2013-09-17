@@ -9,12 +9,14 @@ background-color: black;
 
 /********Gabrielle's lead article section**********/
 #lead_article{
-  width: 750px;
+  width: 745px;
   background-color: white;
   border-top-right-radius: 30px;
   margin: 0;
   padding: 0;
-  float: left;
+  float: right;
+  position: relative;
+  bottom: 636px;
 }
 
 #dom{
@@ -232,3 +234,250 @@ article > h3{
   padding-top: 30px;
 }
 
+
+
+/*WARREN CSS CODE*/
+
+/*Back And Background Image Styling*/
+body{
+  background-color: #000;
+  background-image: url('http://solarsystem.nasa.gov/images/bg-top.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*End Back And Background Image Styling*/
+
+
+/*Main Container Styling*/
+#main{
+  width: 950px;
+  margin: 0px auto;
+}
+/*End Main Container Styling*/
+
+/*Header Styling*/
+header{
+  width:950px;
+  margin: 0px auto;
+  background-color: rgb(11,18,29);
+}
+/*End Header Styling*/
+
+/*Solar System Exploration Img*/
+.solar-system-exploraton{
+  float:left;
+}
+/*End Solar System Exploration Img*/
+
+/*Subheader Image*/
+.sub_header{
+  float:right;
+}
+/*End Subheader Image*/
+
+/*Begin Nav */
+nav{
+width: 200px;
+float: left;
+margin-top: -15px;
+margin-left: -40px;
+list-style-type: none;
+}
+
+/*Begin Side Ul */
+.side ul li{
+  list-style-type: none;
+  width: 200px;
+}
+
+.side ul li > img{
+  width: 200px;
+  float: left;
+}
+
+
+
+.home{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_home_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+
+}
+
+.home:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_home_on.jpg");
+  cursor: pointer;
+}
+
+.news_events{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_news_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.news_events:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_news_on.jpg");
+  cursor: pointer;
+  }
+
+.missions{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_missions_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.missions:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_missions_on.jpg");
+  cursor: pointer;
+  }
+.planets{
+  background-image: url(http://solarsystem.nasa.gov/images/leftnav_planets_sel.jpg);
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+
+/*Planets Nested Ul*/
+.nested-ul{
+  width: 200px;
+  height: 350px;
+  background-color:rgb(54,34,62);
+}
+.nested-ul ul{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 5px;
+  width: 200px;
+}
+.nested-ul ul li {
+  width: 200px;
+  color:rgb(120,106,152);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.nested-ul ul li:hover{
+  text-decoration: underline;
+}
+
+.nested-ul ul li:last-child{
+  color: white;
+}
+/*End Planets Nested Ul*/
+
+.science_technology{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_scitech_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.science_technology:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_scitech_on.jpg");
+  cursor: pointer;
+  }
+.multimedia{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_multimedia_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.multimedia:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_multimedia_on.jpg");
+  cursor: pointer;
+  }
+.people{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_people_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.people:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_people_on.jpg");
+  cursor: pointer;
+  }
+.kids{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_kids_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.kids:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_kids_on.jpg");
+  cursor: pointer;
+  }
+.education{
+
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_educ_off.jpg");
+  background-repeat: no-repeat;
+  background-color: purple;
+  width: 200px;
+  height: 30px;
+  background-size: 100%;
+}
+.education:hover{
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_educ_on.jpg");
+  cursor: pointer;
+  }
+
+/*End Nav*/
+
+/*Clear Div*/
+
+.clear{
+  clear: both;
+}
+
+/*End Clear Div*/
+
+/*Begin Footer*/
+footer{
+  width:950px;
+  height: 250px;
+  margin-top: -10px;
+  background-image: url("http://solarsystem.nasa.gov/images/bg-footer.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10px;
+  position: relative;
+  bottom: 625px;
+}
+
+footer  ul  li{
+  color: rgb(87, 107, 138);
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+footer  ul  li:hover{
+  color:#FFF;
+}
+
+
+/*End Footer*/
