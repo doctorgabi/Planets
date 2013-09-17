@@ -1,7 +1,82 @@
 body{
-  background-image: url('../images/body_background2.png');
-  background-repeat:no-repeat;
-  background-position: 50% 100%;
-/*  width: 1070px;
-  height: 2125px;*/
+background-color: black;
+}
+
+
+/********Gabrielle's lead article section**********/
+#lead_article{
+  width: 750px;
+  background-color: white;
+  border-top-right-radius: 30px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#dom{
+  font-size: 12px;
+  border-bottom: 1px solid rgb(204, 214, 229,);
+}
+
+#dom > a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 15px;
+}
+#grey_wrapper{
+  background-color: rgb(204, 214, 229);
+  width: 750px;
+}
+
+article{
+  background-color: white;
+  width: 730px;
+  margin: auto;
+}
+
+
+
+
+#lead_article li{
+  display: inline;
+  padding: 5px 15px;
+  background-color: rgb(227, 235, 246);
+  color: rgb(119, 141, 171);
+  border-bottom: 1px solid rgb(227, 235, 246);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+}
+
+#lead_article li:nth-child(1){
+  background-color: white;
+  color: rgb(59, 85, 140);
+  border-bottom: 1px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px;
+}
+
+#image_holder{
+  border: 1px solid rgb(125, 144, 173);
+  width: 715px;
+  margin-left: 7px;
+  margin-top: 15px;
+}
+
+#image_holder > img{
+  width: 700px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+article > p{
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+#image_holder > p{
+  font-size: 10px;
+  color: rgb(87, 141, 202);
+  padding-left: 10px;
 }
