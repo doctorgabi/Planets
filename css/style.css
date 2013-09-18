@@ -47,13 +47,16 @@ width: 200px;
 float: left;
 margin-top: -15px;
 margin-left: -40px;
-list-style-type: none;
 }
 
 /*Begin Side Ul */
 .side ul li{
   list-style-type: none;
   width: 200px;
+}
+
+.side li{
+  list-style-type: none;
 }
 
 .side ul li > img{
@@ -227,7 +230,7 @@ list-style-type: none;
   width: 750px;
   background-color: white;
   border-top-right-radius: 30px;
-  margin: 0;
+  margin: 0 0 0 40px;
   padding: 0;
   float: left;
 }
