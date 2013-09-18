@@ -327,6 +327,10 @@ reason!*/
   font-size: 14px;
 }
 
+#grey_wrapper > nav > ul > li:hover{
+  color: rgb(59, 85, 143);
+}
+
 #grey_wrapper > nav > ul > li:nth-child(1){
   padding-bottom: 3px;
 }
