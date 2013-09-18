@@ -9,6 +9,8 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+
 /*End Back And Background Image Styling*/
 
 /*Main Container Styling*/
@@ -23,7 +25,7 @@ body{
 header{
   width:950px;
   margin: 0px auto;
-  background-color: rgb(11,18,29);
+  background-color: rgba(11,18,29,0.3);
 }
 /*End Header Styling*/
 
@@ -531,15 +533,18 @@ article > h3{
 /***************Warren's Footer****************/
 footer{
   width:950px;
-  height: 250px;
-  margin-top: -10px;
+  height: 170px;
+  margin: 0 auto 200px auto;
   background-image: url("http://solarsystem.nasa.gov/images/bg-footer.png");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 10px;
+  -moz-box-shadow: -1px 9px 29px #151420;
+  -webkit-box-shadow: -1px 9px 29px #151420;
+  box-shadow: -1px 9px 29px #151420;
 }
 
-footer ul li{
+#horizontal li{
   color: rgb(87, 107, 138);
   display: inline-block;
   float: left;
@@ -547,8 +552,35 @@ footer ul li{
   margin-left: 10px;
 }
 
-footer  ul  li:hover{
+#horizontal li:hover{
   color:#FFF;
 }
 
+footer > div:nth-child(1){
+  width: 940px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(37, 52, 78);
+}
+
+.footer_links{
+  float: left;
+  margin: 2px;
+  padding-left: 10px;
+}
+
+
+
+.footer_links > li{
+  color: rgb(87, 107, 138);
+  font-size: 8px;
+  list-style-type: none;
+  line-height: 13px;
+  padding: 2px 0 2px 5px;
+}
+
+.footer_links > li:hover{
+  color:#FFF;
+}
 /****************End Footer******************/
